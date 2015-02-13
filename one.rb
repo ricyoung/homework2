@@ -7,6 +7,8 @@ Teacher Name: Guymon Hall
 =end
 
 print "Please Enter You Name"
- input = gets.chomp
+name = gets.chomp
+
+
  
 puts "hello #{input}" 
