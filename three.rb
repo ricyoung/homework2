@@ -9,7 +9,7 @@ Repetition: take the previous program, and make it repeat until the user enters 
 
 
 input nubmer 
-logic - odd or even
+logic - odd or even and a else if loop to restart program
 output - odd or even puts / print statement.output
 
 =end
@@ -24,12 +24,14 @@ if whole.even?
 else
 	puts "#{whole}  is odd"
 end
-
-
 	print "Do you want to re-run the program "
 	input = gets.chomp
+
+# this is a bit different method than you talked about in class
+# method is cleaner.. 
+
 if 	
-	input == 'y'
+	input.downcase   == 'y'
 	load "three.rb"
 elsif  # Can't process anything else - catch all
 	print "\n\n done\n\n"

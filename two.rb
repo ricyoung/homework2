@@ -14,7 +14,7 @@ Selection: write a program that prompts the user to input a number, and then out
 #clears screen
 system "clear" 
 
-print "Please Enter A Whole Number ( any decimal will be dropped): "
+print "Please Enter A Whole Number (any decimal will be dropped): "
 whole = gets.to_i 
 if whole.even?
 	puts "#{whole} is even"

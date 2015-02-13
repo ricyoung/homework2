@@ -20,25 +20,26 @@ https://www.ruby-forum.com/topic/53793
 user = Hash.new
 
 
-print "Please Enter You Name"
+print "Please Enter You Name: "
 name = gets.chomp
 
 #user[:name] = gets.chomp
 
 
-print "Please Enter You age"
+print "Please Enter You age: "
 age = gets.to_i
 
 #user[:age] = gets.to_i
 
 user [name] = age
 
+#display arr
 p  user
 
 #user.each do |  {|k,v|}
 #	puts "#{k} is #{v} years old"
 	
-user.each_key {|key| puts key }	
+user.each {|key, value| puts "#{key} is #{value} years old" }	
 	
 # user.each {|k,v| puts "#{key} age is #{value}" }	
 

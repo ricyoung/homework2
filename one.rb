@@ -10,7 +10,7 @@ output - a greeting plus name
 
 =end
 
-print "Please Enter You Name"
+print "Please Enter You Name: "
 name = gets.chomp
 
 
