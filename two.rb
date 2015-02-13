@@ -3,6 +3,8 @@ Name: Richard Young
 email: jeff@unlv.nevada.edu
 Program: Homework 2 - program number 2
 Teacher Name: Guymon Hall
+inputs: a number ( int)
+output - even or odd  ( prints / puts )
 
 Selection: write a program that prompts the user to input a number, and then outputs whether that number is odd or even.
 
