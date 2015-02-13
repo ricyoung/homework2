@@ -6,7 +6,7 @@ Teacher Name: Guymon Hall
 
 =end
 
-print "Please Enter You Name:"
+print "Please Enter You Name"
  input = gets.chomp
  
 puts "hello #{input}" 
