@@ -12,3 +12,24 @@ Then, the program is to iterate through the array and sum up all the numbers.
 
 print "Please Enter A Whole Number ( any decimal will be dropped): "
 whole = gets.to_i 
+
+
+# create an empty array
+arr = Array.new
+
+# conunts up to number of times
+
+for i in 1..amt 
+	arr << i
+end
+
+ 
+p arr
+
+sum = 0
+
+for i in arr
+	sum += i
+end
+
+put " sum  in arr #{sum}"

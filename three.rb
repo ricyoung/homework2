@@ -7,6 +7,11 @@ Teacher Name: Guymon Hall
 Repetition: take the previous program, and make it repeat until the user enters ’q’ to quit.
 
 
+
+input nubmer 
+logic - odd or even
+output - odd or even puts / print statement.output
+
 =end
 
 #clears screen
@@ -29,5 +34,10 @@ if
 elsif  # Can't process anything else - catch all
 	print "\n\n done\n\n"
 end
+
+
+#  guymon method
+#while ( num 1="q")	
+#nd
 
  
