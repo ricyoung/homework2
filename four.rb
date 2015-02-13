@@ -11,7 +11,7 @@ Then, the program is to iterate through the array and sum up all the numbers.
 =end
 
 print "Please Enter A Whole Number ( any decimal will be dropped): "
-whole = gets.to_i 
+amt = gets.to_i 
 
 
 # create an empty array
@@ -24,12 +24,12 @@ for i in 1..amt
 end
 
  
-p arr
+puts "your array looks like #{arr}"
 
 sum = 0
-
 for i in arr
 	sum += i
 end
 
-put " sum  in arr #{sum}"
+
+puts "the sum of the above array is #{sum}"
