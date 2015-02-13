@@ -10,7 +10,7 @@ Repetition: take the previous program, and make it repeat until the user enters 
 =end
 
 #clears screen
-system "clear" 
+puts "\e[H\e[2J"
 
 print "Please Enter A Whole Number ( any decimal will be dropped): "
 whole = gets.to_i 
@@ -20,13 +20,14 @@ else
 	puts "#{whole}  is odd"
 end
 
-print "Do you want to re-run the program "
-input = gets.chomp
-		
-if input = 'y'
+
+	print "Do you want to re-run the program "
+	input = gets.chomp
+if 	
+	input == 'y'
 	load "three.rb"
-else  # Can't process anything else - catch all
-    quit 
+elsif  # Can't process anything else - catch all
+	print "\n\n done\n\n"
 end
 
  
