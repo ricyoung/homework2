@@ -21,4 +21,4 @@ program 5
 Hashes: take program number 1 above, and add a prompt for the user’s age; then store the user’s information in a hash where name is the key, and age is the value. Then, iterate over the hash and print out the user’s name and age.
 
 program 6 
-Methods: take program number 4 above and modify it so that the sum cal-culation takes place in a method that takes the array as its parameter and returns the sum of the items.
+Methods: take program number 4 above and modify it so that the sum calculation takes place in a method that takes the array as its parameter and returns the sum of the items.
